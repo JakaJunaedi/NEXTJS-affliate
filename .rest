@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+{
+    "username": "foo",
+    "email": "bar@gmail.com",
+    "password": 12345678
+}
